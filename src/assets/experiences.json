@@ -1,0 +1,30 @@
+[
+  {
+    "company": "AXA en France, Wasquehal, Hauts-de-France, France.",
+    "period": "mars 2024 - septembre 2024 (7 mois)",
+    "title": "Front-end Software Engineer React",
+    "logo": "assets/axalogo.png",
+    "description": "\n👉 Développement de fonctionnalités\n\n👉 Utilisation de Jira, SonarQube (Qualité du Code)\n\n👉 Réalisation de tests unitaires, tests Gherkins et BDD\n\n👉 Application des méthodes agiles\n\n👉 Utilisation des commandes Git\n\n👉 Création et Gestion de Pull Requests / Code Review"
+  },
+  {
+    "company": "FEDHUBS",
+    "period": "avril 2023 - juin 2023 (3 mois)",
+    "title": "Développeur Front-end Flutter",
+    "logo": "assets/fedhubsLogo.png",
+    "description": "\n👉 Développement de fonctionnalités"
+  },
+  {
+    "company": "Université Polytechnique Hauts-de-France, Hauts-de-France, France",
+    "period": "mars 2022 - juin 2022 (4 mois)",
+    "title": "Développeur React JS, Valenciennes",
+    "logo": "assets/uphfLogo.png",
+    "description": "\n👉 Mise à jour du site web en React.JS de l’événement international Franco-Indonésien\n\n👉 Création des badges / Gestion des participants"
+  },
+  {
+    "company": "IFAR Intervention Formation Action Recherche",
+    "period": "mars 2021 - juin 2021 (4 mois)",
+    "title": "Développeur web / mobile",
+    "logo": "assets/ifarLogo.png",
+    "description": "\n👉 Création d’une application mobile de communication interne (publication d’événements, ajout de missions pour chaque utilisateur)\n\n👉 Création d’un site web pour la demande de devis avec un devis PDF généré\n\n👉 Création d’un site web de gestion de CV avec graphiques et tableaux\n\n👉 Création d’un site pour la gestion de présence avec gestion de plusieurs groupes différents"
+  }
+]

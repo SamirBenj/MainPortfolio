@@ -1,0 +1,77 @@
+[
+  {
+    "title": "My Portfolio #1",
+    "description": "This is my portfolio website, where you can find information about me, my projects, and my contact information.",
+    "ytLink": "#",
+    "imageLink": "assets/myportfolio.png",
+    "haveLink": false,
+    "tech": ["React", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    "title": "CovidInOne #2",
+    "description": "CovidInOne is a mobile app that provides information about the Covid-19 pandemic, statictics detailed, news, survey.",
+    "ytLink": "https://www.youtube.com/watch?v=nW1WIk0ieNc",
+    "imageLink": "assets/covidInOne.jpg",
+    "haveLink": true,
+    "tech": ["Flutter", "Firebase", "Figma"]
+  },
+  {
+    "title": "Landing Page Chess AI Coach #3",
+    "description": "This is a landing page for a chess AI coach, it is built using Tailwind CSS for styling and Framer Motion for animations.",
+    "ytLink": "#",
+    "imageLink": "assets/chessaicoachwebsite.png",
+    "haveLink": false,
+    "tech": ["React", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    "title": "E-commerce App #4",
+    "description": "This is an e-commerce app that features a shopping cart system, categorized product listings, and integrates data retrieved through an API.",
+    "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
+    "imageLink": "assets/ecommerceapp.png",
+    "haveLink": false,
+    "tech": ["React", "Redux", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    "title": "OwnYourEvent #5",
+    "description": "OwnYourEvent is a mobile app that allows users to discover and share events. You can sign in, sign up, and add your own events. The platform also lets you create stories, post updates, and interact with content similar to Instagram or Snapchat. Additionally, you can edit your videos by adding text and other features.",
+    "ytLink": "#",
+    "imageLink": "assets/ownYourEvent.png",
+    "haveLink": false,
+    "tech": ["Flutter", "Firebase", "Figma"]
+  },
+  {
+    "title": "Movie Web App #6",
+    "description": "This is a movie app that provides information about the latest movies, with search feature and you can add your favorite movies to your favorite list.",
+    "haveLink": false,
+    "imageLink": "assets/movieapp.png",
+    "tech": ["React", "RTK-Query", "Tailwind CSS", "TypeScript"]
+  },
+  {
+    "title": "NewsApp #7",
+    "info": "(Made with Adobe After Effect)",
+    "description": "This is a news app that provides information about the latest news, with sign in and sign up features, you can add your favorite news to your favorite list.",
+    "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
+    "imageLink": "assets/NewsAppImg.png",
+    "haveLink": true,
+    "tech": ["React-Native", "Firebase", "Figma"]
+  },
+  {
+    "title": "Delivery Project #8",
+    "info": "More Info",
+    "ytLink": "https://www.youtube.com/watch?v=uGjLV9320oA",
+    "imageLink": "assets/DeliveryApp.png",
+    "description": "This is a delivery app for ordering food.",
+    "haveLink": true,
+    "tech": ["Flutter", "Firebase", "Figma"]
+  },
+
+  {
+    "title": "ChatApp #9",
+    "info": "More Info",
+    "ytLink": "https://www.youtube.com/shorts/P4Xa1aLtvMY",
+    "description": "This is a chat app where you can chat with your colleagues, can see online and offline friends. With sign in and sign up features and notifications push.",
+    "imageLink": "assets/chatappifar.png",
+    "haveLink": true,
+    "tech": ["Flutter", "Firebase", "Figma"]
+  }
+]
