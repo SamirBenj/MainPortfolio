@@ -24,4 +24,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOL_A9EAE }}
           projectId: portfol-a9eae
-          only: hosting:samir
+          target: samir
