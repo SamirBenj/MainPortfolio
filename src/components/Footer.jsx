@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-gray-400">@2024 S.BENJALLOUL</p>
+      <p className="text-gray-400">@2025 S.BENJALLOUL</p>
     </div>
   );
 };

@@ -9,6 +9,15 @@ const Portfolio = () => {
     <div className="max-w-[1000px] mx-auto p-6 md:my-20" id="portfolio">
       <Reveal>
         <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
+
+        <div className="flex flex-row justify-between items-center mb-4">
+          <div>
+            <h3>Web Apps</h3>
+          </div>
+          <div>
+            <h3>Mobile Apps</h3>
+          </div>
+        </div>
         {projects.map((project, index) => (
           // eslint-disable-next-line react/jsx-key
           <div

@@ -99,7 +99,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="flex flex-row items-center gap-6 my-4 md:mb-0 justify-start"
           >
-            <motion.button
+            {/* <motion.button
               onClick={() => {
                 handleDownloadCV();
               }}
@@ -110,7 +110,7 @@ const Hero = () => {
               className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 borderborder-purple-400 rounded-xl border-dashed border-white border-2"
             >
               Download CV
-            </motion.button>
+            </motion.button> */}
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
               <motion.a

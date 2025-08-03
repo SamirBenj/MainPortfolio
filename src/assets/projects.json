@@ -5,7 +5,7 @@
     "ytLink": "#",
     "imageLink": "assets/myportfolio.png",
     "haveLink": false,
-    "tech": ["React", "Tailwind CSS", "Framer Motion"]
+    "tech": ["ReactJS", "Tailwind CSS", "Framer Motion"]
   },
   {
     "title": "CovidInOne #2",
@@ -21,7 +21,7 @@
     "ytLink": "#",
     "imageLink": "assets/chessaicoachwebsite.png",
     "haveLink": false,
-    "tech": ["React", "Tailwind CSS", "Framer Motion"]
+    "tech": ["ReactJS", "Tailwind CSS", "Framer Motion"]
   },
   {
     "title": "E-commerce App #4",
@@ -29,8 +29,9 @@
     "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
     "imageLink": "assets/ecommerceapp.png",
     "haveLink": false,
-    "tech": ["React", "Redux", "Tailwind CSS", "TypeScript"]
+    "tech": ["ReactJS", "Redux", "Tailwind CSS", "TypeScript"]
   },
+
   {
     "title": "OwnYourEvent #5",
     "description": "OwnYourEvent is a mobile app that allows users to discover and share events. You can sign in, sign up, and add your own events. The platform also lets you create stories, post updates, and interact with content similar to Instagram or Snapchat. Additionally, you can edit your videos by adding text and other features.",
@@ -44,7 +45,7 @@
     "description": "This is a movie app that provides information about the latest movies, with search feature and you can add your favorite movies to your favorite list.",
     "haveLink": false,
     "imageLink": "assets/movieapp.png",
-    "tech": ["React", "RTK-Query", "Tailwind CSS", "TypeScript"]
+    "tech": ["ReactJS", "RTK-Query", "Tailwind CSS", "TypeScript"]
   },
   {
     "title": "NewsApp #7",
@@ -53,7 +54,7 @@
     "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
     "imageLink": "assets/NewsAppImg.png",
     "haveLink": true,
-    "tech": ["React-Native", "Firebase", "Figma"]
+    "tech": ["ReactJS-Native", "Firebase", "Figma"]
   },
   {
     "title": "Delivery Project #8",
@@ -73,5 +74,13 @@
     "imageLink": "assets/chatappifar.png",
     "haveLink": true,
     "tech": ["Flutter", "Firebase", "Figma"]
+  },
+  {
+    "title": "Notes App #10",
+    "description": "A modern, full-stack note-taking application built with React, Node.js, Express, and MongoDB. Easily create, edit, search, and organize your notes with a beautiful and responsive UI.",
+    "ytLink": "#",
+    "imageLink": "assets/notesapp.png",
+    "haveLink": false,
+    "tech": ["ReactJS", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
   }
 ]
