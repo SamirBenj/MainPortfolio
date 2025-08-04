@@ -28,7 +28,7 @@ const Portfolio = () => {
           >
             <div className="w-full md:w-1/2 p-4 ">
               <img
-                src={`/${project.imageLink}`}
+                src={`${import.meta.env.VITE_PUBLIC_URL}${project.imageLink}`}
                 // src={`${project.imageLink}`}
                 // src={testCovidImage}
                 alt={project.title}
