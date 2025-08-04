@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "samir",
-      "public": "dist",
+      "public": "src",
       "ignore": [
         "firebase.json",
         "**/.*",
