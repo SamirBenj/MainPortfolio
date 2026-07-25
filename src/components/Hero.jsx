@@ -10,6 +10,7 @@ import profilepic from "../assets/profilePicture.png";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import ShinyEffect from "./ShinyEffect";
 import { BiLogoFirebase, BiLogoFlutter, BiLogoTypescript } from "react-icons/bi";
+import { PiPhoneCall } from "react-icons/pi";
 import { logEvent } from "firebase/analytics";
 import { analytics } from "../firebase";
 
@@ -80,6 +81,17 @@ const Hero = () => {
             Master&apos;s in Digital Humanities, specializing in User Experience
             Design.
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay: 1.5 }}
+            className="flex flex-row items-center gap-6 my-5 md:mb-0 justify-start"
+          >
+            <PiPhoneCall size={29} className="text-purple-400" />
+            <p className="text-white">+33 7 67 37 19 74</p>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
