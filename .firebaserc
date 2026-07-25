@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "portfol-a9eae"
+  },
+  "targets": {
+    "portfol-a9eae": {
+      "hosting": {
+        "samir": [
+          "samirbenjalloul1"
+        ],
+        "portfolio": [
+          "portfol-a9eae"
+        ],
+        "testportfoliosam": [
+          "testportfoliosam"
+        ]
+      }
+    }
+  }
+}
