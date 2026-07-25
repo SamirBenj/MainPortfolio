@@ -18,8 +18,8 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="border-purple-600 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
             >
-              <div className="flex flex-row-reverse items-center justify-evenly">
-                <h2 className="text-gray-100 text-2xl font-semibold pl-4">
+              <div className="flex flex-row-reverse items-center justify-evenly gap-4">
+                <h2 className="text-gray-100 text-lg sm:text-2xl font-semibold pl-4 min-w-0">
                   {experience.company}
                 </h2>
                 <div className="w-20 h-20 shrink-0 bg-white rounded-md p-2 flex items-center justify-center">

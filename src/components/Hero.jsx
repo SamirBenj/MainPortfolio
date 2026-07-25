@@ -36,7 +36,7 @@ const Hero = () => {
     window.open(pdfPath, "_blank");
   };
   return (
-    <div className="mt-24 max-w-[1200px] mx-auto relative text-start">
+    <div className="mt-24 max-w-[1200px] mx-auto relative text-start px-6 md:px-8">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -97,7 +97,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1.5 }}
-            className="flex flex-row items-center gap-6 my-4 md:mb-0 justify-start"
+            className="flex flex-row flex-wrap items-center gap-4 md:gap-6 my-4 md:mb-0 justify-start"
           >
             <motion.button
               onClick={() => {
@@ -112,7 +112,7 @@ const Hero = () => {
               Download CV
             </motion.button>
 
-            <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
+            <div className="flex gap-4 md:gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="http://github.com/SamirBenj/"
@@ -139,7 +139,7 @@ const Hero = () => {
         <motion.img
           src={profilepic}
           alt="Samir Benjalloul"
-          className="w-[300px] md:w-[450px]"
+          className="w-[240px] sm:w-[300px] md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -151,16 +151,18 @@ const Hero = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 2 }}
-        className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+        className="flex flex-row flex-wrap text-3xl sm:text-5xl md:text-7xl w-full justify-center items-center gap-2 sm:gap-3 py-16 md:py-24"
       >
-        <p className="text-gray-200 mr-6">My Tech Stack</p>
-        <DiHtml5 className="text-orange-600 mx-2" />
-        <DiCss3 className="text-blue-600 mx-2" />
-        <DiJavascript1 className="text-yellow-500 mx-2" />
-        <DiReact className="text-blue-500 mx-2" />
-        <BiLogoFlutter className="text-blue-400 mx-2" />
-        <BiLogoTypescript className="text-blue-400 mx-2" />
-        <BiLogoFirebase className="text-yellow-600 mx-2" />
+        <p className="text-gray-200 mr-2 sm:mr-6 text-xl sm:text-3xl md:text-7xl">
+          My Tech Stack
+        </p>
+        <DiHtml5 className="text-orange-600 mx-1 sm:mx-2" />
+        <DiCss3 className="text-blue-600 mx-1 sm:mx-2" />
+        <DiJavascript1 className="text-yellow-500 mx-1 sm:mx-2" />
+        <DiReact className="text-blue-500 mx-1 sm:mx-2" />
+        <BiLogoFlutter className="text-blue-400 mx-1 sm:mx-2" />
+        <BiLogoTypescript className="text-blue-400 mx-1 sm:mx-2" />
+        <BiLogoFirebase className="text-yellow-600 mx-1 sm:mx-2" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">

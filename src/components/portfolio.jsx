@@ -22,13 +22,13 @@ const Portfolio = () => {
       <Reveal>
         <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
 
-        <div className="flex flex-row justify-center gap-4 mb-8">
+        <div className="flex flex-row flex-wrap justify-center gap-2 sm:gap-4 mb-8">
           {filters.map((filter) => (
             <button
               key={filter}
               type="button"
               onClick={() => setActiveFilter(filter)}
-              className={`px-4 py-2 rounded-lg transition duration-300 ${
+              className={`px-3 sm:px-4 py-2 text-sm sm:text-base rounded-lg transition duration-300 ${
                 activeFilter === filter
                   ? "bg-purple-600 text-gray-100"
                   : "bg-gray-800/40 text-gray-300 hover:bg-gray-800/70"
@@ -41,8 +41,8 @@ const Portfolio = () => {
         {visibleProjects.map((project, index) => (
           <div
             key={project.title}
-            className={`flex flex-col md:flex-row ${
-              index % 2 !== 0 ? "md:flex-row-reverse text-right " : "text-left"
+            className={`flex flex-col md:flex-row text-left ${
+              index % 2 !== 0 ? "md:flex-row-reverse md:text-right" : ""
             } mb-12 hover:scale-105 transition duration-300`}
           >
             <div className="w-full md:w-1/2 p-4 ">
@@ -56,7 +56,7 @@ const Portfolio = () => {
             </div>
             <div
               className={`w-full md:w-1/2 p-4 flex flex-col justify-center ${
-                index % 2 !== 0 ? "items-end" : ""
+                index % 2 !== 0 ? "md:items-end" : ""
               }`}
             >
               <h3 className="text-2xl font-semibold text-gray-200 mb-4">

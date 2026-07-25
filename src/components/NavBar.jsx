@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
-      <div className="max-w-[1300px] mx-auto flex justify-between text-gray-200 text-xl items-center px-12 h-20">
+      <div className="max-w-[1300px] mx-auto flex justify-between text-gray-200 text-xl items-center px-6 md:px-12 h-20">
         <a href="#" className="">
           S.Benjalloul
         </a>
