@@ -14,7 +14,7 @@ h2 {
 }
 
 p {
-  @apply text-xl tracking-tight leading-relaxed;
+  @apply text-base md:text-xl tracking-tight leading-relaxed;
 }
 
 span {

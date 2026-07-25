@@ -36,7 +36,7 @@ const Contact = () => {
               <h3 className="text-4xl font-semibold mb-5">
                 About <span>Me</span>
               </h3>
-              <p className="text-justify leading-7 w-11/12 mx-auto">
+              <p className="text-justify leading-7 w-11/12 mx-auto text-base md:text-lg">
                 I care about clean, maintainable code and interfaces that
                 actually make sense to the people using them. Beyond building
                 features, I enjoy digging into the &quot;why&quot; behind a

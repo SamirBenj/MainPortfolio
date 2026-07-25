@@ -32,12 +32,14 @@ const Experience = () => {
                 </div>
               </div>
               <br></br>
-              <p className="text-gray-300">{experience.period}</p>
-              <p className="text-gray-300 font-extrabold text-lg underline">
+              <p className="text-gray-300 text-sm sm:text-base">
+                {experience.period}
+              </p>
+              <p className="text-gray-300 font-extrabold text-base sm:text-lg underline">
                 {experience.title}
               </p>
 
-              <p className="text-gray-400 mt-4 whitespace-pre-line text-start">
+              <p className="text-gray-400 mt-4 whitespace-pre-line text-start text-sm sm:text-base">
                 {experience.description}
               </p>
             </motion.div>

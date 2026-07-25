@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-gray-400">
+      <p className="text-gray-400 text-sm md:text-base">
         &copy; {new Date().getFullYear()} S.BENJALLOUL
       </p>
     </div>
