@@ -20,7 +20,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-gray-400">@2025 S.BENJALLOUL</p>
+      <p className="text-gray-400">
+        &copy; {new Date().getFullYear()} S.BENJALLOUL
+      </p>
     </div>
   );
 };
