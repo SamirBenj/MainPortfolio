@@ -1,6 +1,6 @@
 [
   {
-    "title": "My Portfolio #1",
+    "title": "My Portfolio",
     "description": "This is my portfolio website, where you can find information about me, my projects, and my contact information.",
     "ytLink": "#",
     "imageLink": "assets/myportfolio.png",
@@ -8,15 +8,15 @@
     "tech": ["ReactJS", "Tailwind CSS", "Framer Motion"]
   },
   {
-    "title": "CovidInOne #2",
-    "description": "CovidInOne is a mobile app that provides information about the Covid-19 pandemic, statictics detailed, news, survey.",
+    "title": "CovidInOne",
+    "description": "CovidInOne is a mobile app that provides information about the Covid-19 pandemic, detailed statistics, news, survey.",
     "ytLink": "https://www.youtube.com/watch?v=nW1WIk0ieNc",
     "imageLink": "assets/covidInOne.jpg",
     "haveLink": true,
     "tech": ["Flutter", "Firebase", "Figma"]
   },
   {
-    "title": "Landing Page Chess AI Coach #3",
+    "title": "Landing Page Chess AI Coach",
     "description": "This is a landing page for a chess AI coach, it is built using Tailwind CSS for styling and Framer Motion for animations.",
     "ytLink": "#",
     "imageLink": "assets/chessaicoachwebsite.png",
@@ -24,7 +24,7 @@
     "tech": ["ReactJS", "Tailwind CSS", "Framer Motion"]
   },
   {
-    "title": "E-commerce App #4",
+    "title": "E-commerce App",
     "description": "This is an e-commerce app that features a shopping cart system, categorized product listings, and integrates data retrieved through an API.",
     "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
     "imageLink": "assets/ecommerceapp.png",
@@ -33,7 +33,7 @@
   },
 
   {
-    "title": "OwnYourEvent #5",
+    "title": "OwnYourEvent",
     "description": "OwnYourEvent is a mobile app that allows users to discover and share events. You can sign in, sign up, and add your own events. The platform also lets you create stories, post updates, and interact with content similar to Instagram or Snapchat. Additionally, you can edit your videos by adding text and other features.",
     "ytLink": "#",
     "imageLink": "assets/ownYourEvent.png",
@@ -41,14 +41,14 @@
     "tech": ["Flutter", "Firebase", "Figma"]
   },
   {
-    "title": "Movie Web App #6",
+    "title": "Movie Web App",
     "description": "This is a movie app that provides information about the latest movies, with search feature and you can add your favorite movies to your favorite list.",
     "haveLink": false,
     "imageLink": "assets/movieapp.png",
     "tech": ["ReactJS", "RTK-Query", "Tailwind CSS", "TypeScript"]
   },
   {
-    "title": "NewsApp #7",
+    "title": "NewsApp",
     "info": "(Made with Adobe After Effect)",
     "description": "This is a news app that provides information about the latest news, with sign in and sign up features, you can add your favorite news to your favorite list.",
     "ytLink": "https://www.youtube.com/watch?v=S7yQ74B9_YI",
@@ -57,8 +57,7 @@
     "tech": ["ReactJS-Native", "Firebase", "Figma"]
   },
   {
-    "title": "Delivery Project #8",
-    "info": "More Info",
+    "title": "Delivery Project",
     "ytLink": "https://www.youtube.com/watch?v=uGjLV9320oA",
     "imageLink": "assets/DeliveryApp.png",
     "description": "This is a delivery app for ordering food.",
@@ -67,8 +66,7 @@
   },
 
   {
-    "title": "ChatApp #9",
-    "info": "More Info",
+    "title": "ChatApp",
     "ytLink": "https://www.youtube.com/shorts/P4Xa1aLtvMY",
     "description": "This is a chat app where you can chat with your colleagues, can see online and offline friends. With sign in and sign up features and notifications push.",
     "imageLink": "assets/chatappifar.png",
@@ -76,7 +74,7 @@
     "tech": ["Flutter", "Firebase", "Figma"]
   },
   {
-    "title": "Notes App #10",
+    "title": "Notes App",
     "description": "A modern, full-stack note-taking application built with React, Node.js, Express, and MongoDB. Easily create, edit, search, and organize your notes with a beautiful and responsive UI.",
     "ytLink": "#",
     "imageLink": "assets/notesapp.png",
