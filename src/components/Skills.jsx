@@ -3,7 +3,7 @@ import React from "react";
 import Reveal from "./Reveal";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiExpress, SiMongodb, SiNodedotjs, SiTypescript } from "react-icons/si";
 import { BiLogoFirebase, BiLogoFlutter } from "react-icons/bi";
 
 const skills = [
@@ -21,6 +21,18 @@ const skills = [
       {
         icon: <DiJavascript1 className="text-yellow-500" />,
         name: "Javascript",
+      },
+    ],
+  },
+  {
+    category: "Backend",
+    technologies: [
+      { icon: <SiNodedotjs className="text-green-600" />, name: "Node.js" },
+      { icon: <SiExpress />, name: "Express" },
+      { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
+      {
+        icon: <BiLogoFirebase className="text-yellow-600" />,
+        name: "Firebase",
       },
     ],
   },
@@ -48,21 +60,21 @@ const Skills = () => {
       <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
-          I worked on a various projects on mobile and fontend web development.
-          Check them
+          I worked on various projects across frontend, backend, and mobile
+          development. Check them out below.
         </p>
-        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
-          {skills.map((skill, index) => (
+        <div className="flex flex-col md:flex-row justify-center gap-8">
+          {skills.map((skill) => (
             <div
-              key={index}
-              className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg w-full md:w-1/2"
+              key={skill.category}
+              className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg w-full md:w-1/3"
             >
               <h3 className="text-xl font-bold mb-4 text-center">
                 {skill.category}
               </h3>
               <div className="grid grid-cols-2 gap-4">
-                {skill.technologies.map((tech, idx) => (
-                  <div key={idx} className="flex items-center space-x-2">
+                {skill.technologies.map((tech) => (
+                  <div key={tech.name} className="flex items-center space-x-2">
                     <span className="text-2xl">{tech.icon}</span>
                     <span>{tech.name}</span>
                   </div>
