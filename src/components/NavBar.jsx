@@ -31,7 +31,7 @@ const NavBar = () => {
         </a>
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
-            <Link to="contact" smooth={true} offset={-50} duration={500}>
+            <Link to="skills" smooth={true} offset={-50} duration={500}>
               About
             </Link>
           </li>
@@ -51,9 +51,15 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <div onClick={toggleNavBar} className="md:hidden z-50 text-gray-200">
+        <button
+          type="button"
+          onClick={toggleNavBar}
+          aria-label={nav ? "Close menu" : "Open menu"}
+          aria-expanded={nav}
+          className="md:hidden z-50 text-gray-200"
+        >
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
-        </div>
+        </button>
         <motion.div
           initial={false}
           animate={nav ? "open" : "closed"}
