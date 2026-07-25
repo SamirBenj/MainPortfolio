@@ -1,5 +1,12 @@
 [
   {
+    "company": "Airbus, Toulouse, France",
+    "period": "Depuis Septembre 2025 (Alternance)",
+    "title": "IoT Full Stack Developer",
+    "logo": "assets/airbusLogo.png",
+    "description": "\n👉 Gestion des flux de données IoT\n\n👉 Développement Full-Stack avec Python, FastAPI, React et TypeScript"
+  },
+  {
     "company": "AXA France, Wasquehal, Hauts-de-France, France.",
     "period": "March 2024 - September 2024 (7 months)",
     "title": "Front-end Software Engineer React",
