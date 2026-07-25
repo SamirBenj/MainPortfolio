@@ -23,8 +23,15 @@ dist-ssr
 .firebaserc
 # firebase.json
 
-# Public directory
-public
+# Leftover Firebase init placeholder (would override the Vite build output)
+public/index.html
+
+# Unused/duplicate assets kept locally, not needed in the deployed site
+public/assets/ChatApp2.png
+public/assets/event.png
+public/assets/profpic.png
+public/assets/project1.png
+public/assets/realpicprof.jpeg
 
 # Editor directories and files
 .vscode/*
