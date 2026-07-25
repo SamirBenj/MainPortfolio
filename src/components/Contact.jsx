@@ -1,8 +1,32 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+import { useState } from "react";
 import Reveal from "./Reveal";
 
 const Contact = () => {
+  const [status, setStatus] = useState("idle"); // idle | sending | success | error
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setStatus("sending");
+    const form = event.target;
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  };
+
   return (
     <div className="px-6 max-w-[1000px] mx-auto md:my-12" id="contact">
       <Reveal>
@@ -37,40 +61,69 @@ const Contact = () => {
           <form
             action="https://getform.io/f/aejjvmlb"
             method="POST"
+            onSubmit={handleSubmit}
             className=" max-w-6xl p-5 md:p-12"
             id="form"
           >
             <p className="text-gray-100 font-bold text-xl mb-2">
               Let´s connect!
             </p>
+
+            <label htmlFor="name" className="sr-only">
+              Your Name
+            </label>
             <input
               type="text"
               id="name"
               placeholder="Your Name ..."
               name="name"
+              required
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
+
+            <label htmlFor="email" className="sr-only">
+              Your Email
+            </label>
             <input
               type="email"
               id="email"
               placeholder="Your Email ..."
               name="email"
+              required
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
+
+            <label htmlFor="textarea" className="sr-only">
+              Your Message
+            </label>
             <textarea
               name="textarea"
               id="textarea"
               cols="30"
               rows="4"
               placeholder="Your Message ..."
+              required
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
+
             <button
               type="submit"
-              className="w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color"
+              disabled={status === "sending"}
+              className="w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color disabled:opacity-60"
             >
-              Send Message
+              {status === "sending" ? "Sending..." : "Send Message"}
             </button>
+
+            {status === "success" && (
+              <p className="text-green-400 mt-3 text-base">
+                Thanks! Your message was sent, I&apos;ll get back to you soon.
+              </p>
+            )}
+            {status === "error" && (
+              <p className="text-red-400 mt-3 text-base">
+                Something went wrong. Please try again or email me directly.
+              </p>
+            )}
           </form>
         </div>
       </Reveal>
