@@ -1,5 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
 import Reveal from "./Reveal";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
