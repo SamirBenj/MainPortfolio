@@ -13,18 +13,20 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I am a passionate and creative web and mobile developer, always
-                eager to innovate. As a recent graduate, I am currently seeking
-                opportunities in front-end development with React and mobile
-                development with Flutter. I am excited to apply my skills and
-                continue growing in these technologies.
+                I care about clean, maintainable code and interfaces that
+                actually make sense to the people using them. Beyond building
+                features, I enjoy digging into the &quot;why&quot; behind a
+                design decision, which is what drew me to studying UX
+                alongside development. I&apos;m currently looking for
+                opportunities where I can keep growing as a FullStack
+                developer.
               </p>
             </div>
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  7<span>+</span>
+                  10<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
