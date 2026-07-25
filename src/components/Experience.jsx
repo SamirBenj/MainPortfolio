@@ -11,10 +11,9 @@ const Experience = () => {
         Experience
       </h1>
       <motion.div className="space-y-8" initial="hidden" animate="visible">
-        {myExperience.map((experience, index) => (
-          <Reveal key={index}>
+        {myExperience.map((experience) => (
+          <Reveal key={experience.company}>
             <motion.div
-              key={index}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
@@ -27,7 +26,8 @@ const Experience = () => {
                 </h2>
                 <img
                   src={`${import.meta.env.VITE_PUBLIC_URL}${experience.logo}`}
-                  alt=""
+                  alt={`${experience.company} logo`}
+                  loading="lazy"
                   width={80}
                   height={80}
                 />
