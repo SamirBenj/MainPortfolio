@@ -22,13 +22,14 @@ const Experience = () => {
                 <h2 className="text-gray-100 text-2xl font-semibold pl-4">
                   {experience.company}
                 </h2>
-                <img
-                  src={`${import.meta.env.VITE_PUBLIC_URL}${experience.logo}`}
-                  alt={`${experience.company} logo`}
-                  loading="lazy"
-                  width={80}
-                  height={80}
-                />
+                <div className="w-20 h-20 shrink-0 bg-white rounded-md p-2 flex items-center justify-center">
+                  <img
+                    src={`${import.meta.env.VITE_PUBLIC_URL}${experience.logo}`}
+                    alt={`${experience.company} logo`}
+                    loading="lazy"
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
               </div>
               <br></br>
               <p className="text-gray-300">{experience.period}</p>
