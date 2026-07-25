@@ -21,7 +21,7 @@ dist-ssr
 # Firebase files and directories
 .firebase
 .firebaserc
-firebase.json
+# firebase.json
 
 # Public directory
 public

@@ -14,7 +14,7 @@ import { BiLogoFlutter, BiLogoTypescript } from "react-icons/bi";
 import { PiPhoneCall } from "react-icons/pi";
 import { getAnalytics, logEvent } from "firebase/analytics";
 const Hero = () => {
-  const analytics = getAnalytics();
+  const analytics = import.meta.env.PROD ? getAnalytics() : null;
 
   useEffect(() => {
     // Analytics initialization can be done here if needed
@@ -26,13 +26,14 @@ const Hero = () => {
   }, []);
 
   const handleDownloadCV = () => {
-    logEvent(analytics, "download_cv", {
-      description: "User clicked the Download CV button",
-    });
+    if (analytics) {
+      logEvent(analytics, "download_cv", {
+        description: "User clicked the Download CV button",
+      });
+    }
 
-    const pdfPath = `${
-      import.meta.env.VITE_PUBLIC_URL
-    }assets/BENJALLOUL_SAMIR_CV_NOT_FULL.pdf`;
+    const pdfPath = `${import.meta.env.VITE_PUBLIC_URL
+      }assets/BENJALLOUL_SAMIR_CV_NOT_FULL.pdf`;
     window.open(pdfPath, "_blank");
   };
   return (
@@ -71,7 +72,7 @@ const Hero = () => {
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6 leading-relaxed"
           >
             I am a
-            <span className="font-bold text-blue-700"> Junior Front-End </span>
+            <span className="font-bold text-blue-700"> Junior FullStack </span>
             Developer in
             <span className="font-bold text-blue-700"> React.js</span> and
             <span className="font-bold text-blue-700"> Flutter</span>. I have a

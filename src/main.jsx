@@ -71,8 +71,10 @@ const initializeFirebase = () => {
   updateVisitCount();
 };
 
-// Call the function to initialize Firebase
-initializeFirebase();
+// Call the function to initialize Firebase (production only, not in local dev)
+if (import.meta.env.PROD) {
+  initializeFirebase();
+}
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
