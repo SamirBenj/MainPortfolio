@@ -11,10 +11,10 @@ import profilepic from "../assets/profilePicture.png";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import ShinyEffect from "./ShinyEffect";
 import { BiLogoFirebase, BiLogoFlutter, BiLogoTypescript } from "react-icons/bi";
-import { getAnalytics, logEvent } from "firebase/analytics";
-const Hero = () => {
-  const analytics = import.meta.env.PROD ? getAnalytics() : null;
+import { logEvent } from "firebase/analytics";
+import { analytics } from "../firebase";
 
+const Hero = () => {
   useEffect(() => {
     // Analytics initialization can be done here if needed
     // logEvent(analytics, "page_view", {
