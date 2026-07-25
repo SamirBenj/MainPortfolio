@@ -32,3 +32,11 @@ span {
 .bg-primary-color {
   @apply bg-purple-600;
 }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid theme("colors.purple.400");
+  outline-offset: 2px;
+}
