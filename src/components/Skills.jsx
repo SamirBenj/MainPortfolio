@@ -70,11 +70,11 @@ const Skills = () => {
               <h3 className="text-xl font-bold mb-4 text-center">
                 {skill.category}
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="flex flex-col gap-3">
                 {skill.technologies.map((tech) => (
-                  <div key={tech.name} className="flex items-center space-x-2">
-                    <span className="text-2xl">{tech.icon}</span>
-                    <span>{tech.name}</span>
+                  <div key={tech.name} className="flex items-center gap-2 min-w-0">
+                    <span className="text-2xl shrink-0">{tech.icon}</span>
+                    <span className="truncate">{tech.name}</span>
                   </div>
                 ))}
               </div>
